@@ -1,85 +1,78 @@
-# Image Steganography Application
+#   Steganography Image Encoder    
 
-A modern GUI application for hiding secret messages within images using steganography techniques. Built with Python and Tkinter.
-
-Check out project Screenshots [here](outputs)
-
-## Features
-
-- 🖼️ Support for multiple image formats (PNG, JPG, BMP)
-- 📝 Text input directly or from files
-- 🔐 Password protection for message encoding/decoding
-- 🎨 Modern dark-themed GUI interface
-- 📊 Real-time status updates
-- ⚡ Fast encoding and decoding
-- 💾 Save encoded images in high-quality PNG format
-
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Kompelli-Anurudh/Image-Steganography-Application.git
-```
-
-2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-1. Run the application:
-```bash
-python steganography_app.py
-```
-
-2. To encode a message:
-   - Click "Select Image" to choose your carrier image
-   - Enter your secret message or use "Load from File" to load from a text file
-   - Enter a password for security
-   - Click "Encode Message"
-   - Choose where to save the encoded image
-
-3. To decode a message:
-   - Select the encoded image
-   - Enter the password used during encoding
-   - Click "Decode Message"
-   - The hidden message will appear in the output section
-
-## Technical Details
-
-The application uses the following techniques:
-- LSB (Least Significant Bit) steganography
-- Password-based message protection
-- Custom pixel manipulation using OpenCV
-- Message length preservation in image metadata
-
-## Requirements
-
-- Python 3.8+
-- OpenCV (opencv-python)
-- Pillow
-- NumPy
-- Tkinter (included with Python)
+A modern Python-based GUI tool for concealing messages within images using steganography. Developed with Python and Tkinter.  
 
 
-## License
+    🚀 Features    
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- 🖼️ Supports PNG, JPG, and BMP formats  
+- 📝 Input text manually or from files  
+- 🔐 Password-protected encoding/decoding  
+- 🎨 Sleek dark-themed interface  
+- 📊 Live status updates  
+- ⚡ Fast encoding & decoding  
+- 💾 High-quality PNG output  
 
-## Acknowledgments
+    🔧 Installation    
 
-- Thanks to the OpenCV team for their amazing image processing library
-- Inspired by various steganography techniques and implementations
+1. Clone the repository:  
+   ```bash
+   git clone github.com/Ziaulislambhatt/steganography.git
+   ```
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```  
 
-## Security Note
+    📌 Usage    
 
-This implementation is for educational purposes. For sensitive data, please use established encryption standards and it is developed with Automated GPT (Claude Sonet 3.5).
+1.   Run the application:    
+   ```bash
+   python steganography_app.py
+   ```  
+2.   Encoding a Message:    
+   - Select an image  
+   - Enter or load a secret message  
+   - Set a password for security  
+   - Click "Encode Message" and save the output  
 
-## Author
+3.   Decoding a Message:    
+   - Select the encoded image  
+   - Enter the password  
+   - Click "Decode Message" to reveal the hidden text  
 
-Kompelli Anurudh - [https://github.com/Kompelli-Anurudh]
+    🛠️ Technical Details    
 
-## Support
+- LSB (Least Significant Bit) steganography  
+- Password-based security  
+- Custom pixel manipulation via OpenCV  
+- Message length stored in metadata  
 
-If you found this project helpful, please give it a ⭐️!
+    📋 Requirements    
+
+- Python 3.8+  
+- OpenCV (opencv-python)  
+- Pillow  
+- NumPy  
+- Tkinter (built-in)  
+
+    📜 License    
+
+Licensed under the MIT License – see [LICENSE](LICENSE).  
+
+    🙏 Acknowledgments    
+
+- OpenCV team for image processing tools  
+- Inspired by various steganography methods  
+
+    ⚠️ Security Disclaimer    
+
+For educational purposes only. Use established encryption for sensitive data. Developed with Automated GPT (Claude Sonet 3.5).  
+
+    👨‍💻 Author    
+
+Zia Ud Din Akbar – [GitHub](github.com/Ziaulislambhatt/steganography)  
+
+    ⭐ Support    
+
+If you find this useful, consider giving it a ⭐!
